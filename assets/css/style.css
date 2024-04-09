@@ -1,0 +1,45 @@
+/* -------- Header ------------ */
+.material-symbols-outlined {
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+#header nav ul li a.logo-home {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5em;
+}
+#header nav ul li a.logo-home span.symbol {
+    width: 15%;
+    display: flex;
+    padding-left: 5px;
+
+}
+#header nav ul li a.logo-home img {
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    .material-symbols-outlined {
+        padding: 12px 20px;
+        
+    }
+    #header nav ul li a.logo {
+        margin: 0px;
+    }
+    #header nav ul li a.logo-home {
+        font-size: 1em;
+        gap: 10px;
+    }
+    #header nav ul li a.logo-home span.symbol {
+        width: 15%;
+        display: flex;
+        padding-left: 5px;
+
+    }
+    #header nav ul li a.logo-home img {
+        width: 100%;
+    }
+}
